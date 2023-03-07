@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/Street_Facing_Side" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
