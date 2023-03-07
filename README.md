@@ -2,7 +2,7 @@
 
 Identifies the side of the polygon (e.g. parcels or building footprints) that is facing the street, river, or any other line vector file type. Outputs a new line feature for each polygon feature, based on what side of the polygon was identified as the 'street-facing' side. Requires both an input polygon layer and input line layer. See the following example:
 
-<img src="img\Example1.png"  width=30% height=30%>
+<img src="img\Example1.PNG"  width=30% height=30%>
 
 *Data Source: City of Calgary, 2023, "Buildings", https://data.calgary.ca/Base-Maps/Buildings/uc4c-6kbd; City of Calgary, 2023, "Street Centreline", https://data.calgary.ca/Transportation-Transit/Street-Centreline/4dx8-rtm5 --- Edited the data to focus on just the University Heights neighbourhood in Calgary*
 
@@ -20,7 +20,7 @@ Currently, you can download the plugin from GitHub or the [QGIS Python Plugins R
 
 This tool is still in it's early development, so it still produces some errors and has performance limits. For example, if there is one polygon feature in front of another (compared to the street, river, etc), it can cause the wrong side to be identified as 'street-facing', as seen here:
 
-<img src="img\Issue1.png"  width=30% height=30%>
+<img src="img\Issue1.PNG"  width=30% height=30%>
 
 *Data Source: City of Calgary, 2023, "Buildings", https://data.calgary.ca/Base-Maps/Buildings/uc4c-6kbd; City of Calgary, 2023, "Street Centreline", https://data.calgary.ca/Transportation-Transit/Street-Centreline/4dx8-rtm5 --- Edited the data to focus on just the University Heights neighbourhood in Calgary*
 
