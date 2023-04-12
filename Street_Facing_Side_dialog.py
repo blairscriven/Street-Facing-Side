@@ -43,7 +43,7 @@ class StreetFacingSideDialog(QtWidgets.QDialog, FORM_CLASS):
         # After self.setupUi() you can access any designer object by doing
         # self.<objectname>, and you can use autoconnect slots - see
         # http://qt-project.org/doc/qt-4.8/designer-using-a-ui-file.html
-        # #widgets-and-dialogs-with-auto-connect
+        # #widgets-and-dialogs-with-auto-connect - test
         self.setupUi(self)
         
         # Set appropriate function for each button when clicked 
